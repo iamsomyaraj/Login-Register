@@ -1,0 +1,251 @@
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("back.jpeg");
+    background-size:cover;
+}
+.navbar{
+    backdrop-filter: blur(50px);
+    background: rgba(255, 255, 255, 0.08);
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    top:0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#linked{
+    text-decoration: none;
+    color:white;
+    position: absolute;
+    top: 25px;
+    right:50px;
+}
+#git{
+    text-decoration: none;
+    color:white;
+    position: absolute;
+    top: 20px;
+    right: 160px;
+}
+.mid{
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.08);
+    width:700px;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 1;
+    transition: 0.1s ease-in;
+}
+.mid:hover{
+    backdrop-filter: blur(20px);
+    border:0.1px solid skyblue;
+}
+.login{
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.08);
+    width: 350px;
+    height:500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color:white;
+    z-index: 2;
+}
+.signin{
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.08);
+    width: 350px;
+    height:500px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color:white;
+    z-index: 2;
+}
+.login h1{
+    text-align: center;
+}
+.loguser{
+    position: relative;
+    top:60px;
+    left:23px;
+    font-size:70%;
+}
+#logname{
+    font-size :140%;
+}
+.login input[type="text"]{
+    width: 250px;
+    height: 37px;
+    border-radius:20px;
+    background: rgba(255, 255, 255, 0.1);
+    color:white;
+    font-size:150%;
+    padding:1%;
+    padding-left:10%;
+    border: 0.01px solid grey
+}
+.login input[type="text"]:focus{
+    background-color: white;
+    color:black
+}
+.logpass{
+    position: relative;
+    top:90px;
+    left:23px;
+}
+.login input[type="password"]{
+    width: 250px;
+    height: 37px;
+    border-radius:20px;
+    background: rgba(255, 255, 255, 0.1);
+    color:white;
+    font-size:150%;
+    padding:1%;
+    padding-left:10%;
+    border: 0.01px solid grey
+}
+.login input[type="password"]:focus{
+    background-color: white;
+    color:black
+}
+.check{
+    position: relative;
+    top:105px;
+    left:30px;
+}
+.login input[type="submit"]{
+    position:relative;
+    top:100px;
+    left: 23px;
+    width: 300px;
+    height:35px;
+    border-radius:20px;
+    background: rgba(50, 50, 243,0.1);
+    color:white;
+    transition: 0.3s ease-in;
+    border: 0.01px solid grey;
+    cursor: pointer;
+}
+.login input[type="submit"]:hover{
+    background: rgb(3, 3, 82);
+    border:1px solid rgb(168, 230, 255);
+    height:45px;
+}
+.signin h1{
+    text-align: center;
+}
+#signfull{
+    font-size:100%;
+}
+.signfull{
+    position: relative;
+    top:10px;
+    left:23px;
+}
+.signuser{
+    position: relative;
+    top:20px;
+    left:23px;
+}
+.signin input[type="text"]{
+    width: 250px;
+    height: 37px;
+    border-radius:20px;
+    background: rgba(255, 255, 255, 0.1);
+    color:white;
+    font-size:100%;
+    padding:1%;
+    padding-left:10%;
+    border: 0.01px solid grey
+}
+.signin input[type="text"]:focus{
+    background-color: white;
+    color:black
+}
+.signpass{
+    position:relative;
+    top:30px;
+    left:23px;
+}
+.signin input[type="password"]{
+    width: 250px;
+    height: 37px;
+    border-radius:20px;
+    background: rgba(255, 255, 255, 0.1);
+    color:white;
+    font-size:150%;
+    padding:1%;
+    padding-left:10%;
+    border: 0.01px solid grey
+}
+.signin input[type="password"]:focus{
+    background-color: white;
+    color:black
+}
+.signnum{
+    position: relative;
+    top:45px;
+    left:20px;
+}
+.signin input[type="number"]{
+    width: 150px;
+    height: 25px;
+    border-radius:20px;
+    background: rgba(255, 255, 255, 0.1);
+    color:white;
+    font-size:100%;
+    padding-left:2%;
+    border: 0.01px solid grey
+}
+.signin input[type="submit"]{
+    position:relative;
+    top: 50px;
+    left: 23px;
+    width: 300px;
+    height:35px;
+    border-radius:20px;
+    background: rgba(50, 50, 243,0.1);
+    color:white;
+    transition: 0.3s ease-in;
+    border: 0.01px solid grey;
+    cursor: pointer;
+}
+.signin input[type="submit"]:hover{
+    background: rgb(3, 3, 82);
+    border:1px solid rgb(168, 230, 255);
+    height:45px;
+}
+.cover{
+    backdrop-filter: blur(50px);
+    background: rgba(8, 3, 41,1);
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 350px;
+    height:500px;
+    border-radius: 10px;
+    z-index: 3;
+    transition: 1s ease-in-out;
+}
+.cover button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border-color: white;
+}
+.tb{
+    text-align:center;
+    position: absolute;
+    top:150px;
+    left:100px;
+}
+.cover.active{
+    left:-350px;
+}
